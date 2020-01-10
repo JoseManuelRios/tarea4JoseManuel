@@ -47,6 +47,9 @@ public class Coche {
     public void setPlazas(int plazas) {
         this.plazas = plazas;
     }
-    
-    
+
+    @Override
+    public String toString() {
+        return "Coche{" + "puertas=" + puertas + ", ruedas=" + ruedas + ", plazas=" + plazas + '}';
+    }
 }
