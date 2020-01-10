@@ -23,5 +23,30 @@ public class Coche {
 
     public Coche() {
     }
+
+    public int getPuertas() {
+        return puertas;
+    }
+
+    public void setPuertas(int puertas) {
+        this.puertas = puertas;
+    }
+
+    public int getRuedas() {
+        return ruedas;
+    }
+
+    public void setRuedas(int ruedas) {
+        this.ruedas = ruedas;
+    }
+
+    public int getPlazas() {
+        return plazas;
+    }
+
+    public void setPlazas(int plazas) {
+        this.plazas = plazas;
+    }
+    
     
 }
