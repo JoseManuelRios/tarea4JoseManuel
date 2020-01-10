@@ -14,5 +14,14 @@ public class Coche {
     private int puertas;
     private int ruedas;
     private int plazas;
+
+    public Coche(int puertas, int ruedas, int plazas) {
+        this.puertas = puertas;
+        this.ruedas = ruedas;
+        this.plazas = plazas;
+    }
+
+    public Coche() {
+    }
     
 }
